@@ -1,5 +1,7 @@
 package io;
 
+import sun.security.util.Length;
+
 import java.util.Scanner;
 
 /**
@@ -25,10 +27,17 @@ public class consoleExercises {
 //        System.out.println("Your first name is " + firstName + ", your last name is " + lastName + ", the state you live is " + state);
 //
 
-        System.out.println("What do you like to do on the weekends?");
-        String answer;
-        answer = sc.nextLine();
-        System.out.println("You like to " + answer);
+//        System.out.println("What do you like to do on the weekends?");
+//        String answer;
+//        answer = sc.nextLine();
+//        System.out.println("You like to " + answer);
+
+        System.out.println("What is the length and width of the classroom?");
+        int length = sc.nextInt();
+        int width  = sc.nextInt();
+        int area = length * width;
+        int perimeter = (2 * length) * (2 * width);
+        System.out.println("the area of the classroom is " + area + " and it's perimeter is " + perimeter);
 
     }
 }
