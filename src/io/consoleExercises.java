@@ -1,4 +1,5 @@
 package io;
+
 import java.util.Scanner;
 
 /**
@@ -7,17 +8,22 @@ import java.util.Scanner;
 public class consoleExercises {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int age;
-        System.out.println("How old are you?");
-        age = sc.nextInt();
-        System.out.println("You are " + age + " years old");
+//        int age;
+//        System.out.println("How old are you?");
+//        age = sc.nextInt();
+//        System.out.println("You are " + age + " years old");
 
 
+        String firstName;
+        String lastName;
+        String state;
 
-//        String name;
-//        System.out.println("Enter your name: ");
-//        name = sc.nextLine();
-//        System.out.println("Your name is " + name);
+        System.out.println("Enter your first name, last name, and the state you live in: ");
+        firstName = sc.nextLine();
+        lastName = sc.nextLine();
+        state = sc.nextLine();
+        System.out.println("Your first name is " + firstName + ", your last name is " + lastName + ", the state you live is " + state);
+
 
     }
 }
