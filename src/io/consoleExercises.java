@@ -27,7 +27,7 @@ public class consoleExercises {
 
         System.out.println("What do you like to do on the weekends?");
         String answer;
-        answer = sc.next();
+        answer = sc.nextLine();
         System.out.println("You like to " + answer);
 
     }
