@@ -21,11 +21,10 @@ public class consoleExercises {
         String state;
 
         System.out.println("Enter your first name, last name, and the state you live in: ");
-        firstName = sc.nextLine();
-        lastName = sc.nextLine();
-        state = sc.nextLine();
+        firstName = sc.next();
+        lastName = sc.next();
+        state = sc.next();
         System.out.println("Your first name is " + firstName + ", your last name is " + lastName + ", the state you live is " + state);
-
 
         System.out.println("What do you like to do on the weekends?");
         String answer;
