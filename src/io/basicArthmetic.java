@@ -14,22 +14,44 @@ public class basicArthmetic {
 //        System.out.println(adding(y, x));
 //        System.out.println(subtract(y, x));
 //        System.out.println(multiply(y, x));
-//        if (x != 0){
+//        if (x != 0 || y != 0){
 //            System.out.println(divide(y,x));
 //        } else  {
 //            System.out.println("cant divide by 0");
 //        }
-//        if (x != 0){
+//        if (x != 0 || y != 0){
 //            System.out.println(modulus(y,x));
 //        } else {
 //            System.out.println("cant be done");
 //        }
 
 
-        int userInput = getInteger(1, 10);
-        System.out.println(userInput);
+//        int userInput = getInteger(1, 10);
+//        System.out.println(userInput);
 
-    }
+
+//        int i;
+//        int fact = 1;
+//        System.out.println("Pick a number");
+//        int number = Input.nextInt();
+//        for(i=1;i<=number;i++){
+//            fact=fact*i;
+//        }
+//        System.out.println("Factorial of "+number+" is: "+fact);
+
+
+
+        int x = 5;
+        System.out.println(x > 2 ? x < 4 ? 10 : 8 : 7);
+
+
+
+
+}
+
+
+
+
 
     //    public static int adding(int num1, int num2){
 //    int answer = num1 + num2;
@@ -54,14 +76,15 @@ public class basicArthmetic {
 //    }
 
 
-    public static int getInteger(int min, int max) {
-        System.out.println("Pick a Number between 1 and 10.");
-        int userInput = Input.nextInt();
-        if (min <= userInput && userInput <= max) {
-            return userInput;
-        } else {
-            return getInteger(min, max);
-        }
-    }
+//    public static int getInteger(int min, int max) {
+//        System.out.println("Pick a Number between 1 and 10.");
+//        int userInput = Input.nextInt();
+//        if (min <= userInput && userInput <= max) {
+//            return userInput;
+//        } else {
+//            return getInteger(min, max);
+//        }
+//    }
+
 
 }
