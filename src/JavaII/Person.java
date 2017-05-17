@@ -6,8 +6,8 @@ package JavaII;
 public class Person {
     private String name;
 
-    public Person(){
-
+    public Person(String thatName){
+        name = thatName;
     }
 
     public String getName(){
