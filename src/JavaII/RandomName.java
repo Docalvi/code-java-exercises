@@ -42,10 +42,11 @@ public class RandomName {
             int ranadj = random.nextInt(adjectives.length);
             int ranName = random.nextInt(names.length);
 
-            return  adjectives[ranName] + " - " + names[ranadj];
+            return  adjectives[ranadj] + " - " + names[ranName];
 
         } else {
             return "Alright. Have it your way.";
+
         }
     }
 }

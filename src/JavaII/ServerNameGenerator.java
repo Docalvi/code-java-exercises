@@ -7,6 +7,4 @@ public class ServerNameGenerator {
         System.out.println(RandomName.ran());
     }
 
-
-
 }
