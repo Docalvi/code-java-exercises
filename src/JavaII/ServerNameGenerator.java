@@ -5,11 +5,7 @@ import java.util.Scanner;
 
 public class ServerNameGenerator {
 
-
     public static void main(String[] args) {
-        Random random = new Random();
-        Scanner input = new Scanner(System.in);
-        String yesNo = input.nextLine();
 
         String adjectives[] = {
                 "Colorful",
@@ -38,21 +34,20 @@ public class ServerNameGenerator {
                 "Steven"
         };
 
+        Random random = new Random();
+        Scanner input = new Scanner(System.in);
 
+        System.out.println("DO you want a random Name?");
 
-        System.out.println("Do you want a random Name?");
+        String yesNo = input.nextLine();
+        if  (yesNo.equalsIgnoreCase("y")){
+            int ranadj = random.nextInt(adjectives.length);
+            int ranName = random.nextInt(names.length);
 
+            System.out.println(adjectives[ranName] + " - " + names[ranadj]);
 
+        }
 
-
-
-            if (yesNo.equalsIgnoreCase("y")) {
-                int ranadj = random.nextInt(adjectives.length);
-                int ranName = random.nextInt(names.length);
-
-                System.out.println(adjectives[ranName] + " - " + names[ranadj]);
-
-            }
 
 
 
