@@ -10,6 +10,7 @@ public class MovieApplication {
         System.out.println("4 - view movies in the horror category");
         System.out.println("5 - view movies in the scifi category");
 
+
     }
 }
 
