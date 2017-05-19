@@ -11,11 +11,12 @@ public class Rectangle {
         this.width = width;
     }
 
-    public  int getPerimeter(){
+    public int getPerimeter() {
         return 2 * length + 2 * width;
     }
 
-    public  int getArea(){
-        return  length * width;
+    public int getArea() {
+        System.out.println("this is coming from the rectangle class.");
+        return length * width;
     }
 }
