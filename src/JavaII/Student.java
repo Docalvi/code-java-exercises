@@ -1,4 +1,5 @@
 package JavaII;
+
 import java.util.ArrayList;
 
 
@@ -20,14 +21,13 @@ public class Student {
         this.grades = grades;
     }
 
-    public double getGradeAverage(){
+    public double getGradeAverage() {
         Integer sum = 0;
-        if(!grades.isEmpty()) {
-            for (Integer mark : grades) {
-                sum += mark;
-            }
-            return sum.doubleValue() / grades.size();
+
+        for (Integer mark : grades) {
+            sum += mark;
         }
-        return sum;
+        return sum.doubleValue() / grades.size();
+
     }
 }
