@@ -5,20 +5,20 @@ import java.util.ArrayList;
 
 public class Student {
 
-    private String Name;
+    private String name;
     private ArrayList<Integer> grades;
 
-    public Student(String name, ArrayList<Integer> grades) {
-        Name = name;
-        this.grades = grades;
+    public Student(String name) {
+        this.name = name;
+        grades = new ArrayList<>();
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
-    public void addGrades(ArrayList<Integer> grades) {
-        this.grades = grades;
+    public void addGrades(int grade) {
+        grades.add(grade);
     }
 
     public double getGradeAverage() {
