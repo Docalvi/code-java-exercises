@@ -50,7 +50,37 @@ public class GradesApplication {
         });
 
         System.out.println("Enter a username to see grade average:");
+        String username = input.nextLine();
 
+        map.get(username);  // it's null not there
+       if  (map.containsKey(username)){
+           System.out.println();
+       }
+
+
+
+
+
+
+
+
+
+//        switch (username) {
+//            case "jack8171":
+//                System.out.println(map.get("jack8171"));
+//                break;
+//            case "emilio1911":
+//                System.out.println(map.get("emilio1911"));
+//                break;
+//            case "daniel5577":
+//                System.out.println(map.get("daniel5577"));
+//                break;
+//            case "mark8998":
+//                System.out.println(map.get("mark8998"));
+//                break;
+//            default:
+//                System.out.println("Not a valid username.");
+//        }
 
     }
 }
